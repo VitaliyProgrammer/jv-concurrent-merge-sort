@@ -10,7 +10,6 @@ public class MergeSortAction extends RecursiveAction {
     private final int left;
     private final int right;
 
-
     public MergeSortAction(int[] array, int left, int right) {
         this.array = array;
         this.left = left;
